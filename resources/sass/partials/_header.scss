@@ -1,0 +1,26 @@
+header {
+    color: $header-text;
+    background: #fff;
+    padding-top: 5px;
+    a {
+        width: 80px;
+    }
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav {
+    height: 115px;
+    ul {
+        margin-left: 100px;
+    }
+    li {
+        margin-right: 50px;
+        line-height: 115px;
+        text-transform: uppercase;
+        font-weight: 700;
+        &.active {
+            color: $main-color;
+            border-bottom: 3px solid currentColor;
+        }
+    }
+}
